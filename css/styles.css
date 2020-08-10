@@ -1,0 +1,118 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	background-color: white;
+}
+.navbar
+{
+background-color: beige;
+}
+.navbar .navbar-brand
+{
+	font-size:1.8em;
+	color: red;
+}
+.navbar-collapse
+{
+	text-align: center;
+	font-size:1.2em;
+}
+/*END OF NAVBAR */
+/*MENU*/
+.menu-title
+{
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+.nav .navbar-nav
+{
+	color: black;
+}
+.menu-item
+{
+padding:10px;
+border: 1px solid black;
+margin-bottom: 30px;
+background-color: gray;
+}
+
+.menu-item .menu-item-title
+{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.menu-item:hover
+{
+box-shadow: 5px 5px 2px 0px black;
+}
+
+/*  Large devices */
+@media (min-width:1200px)
+{
+
+} 
+
+/* Medium devices*/
+@media (min-width: 992px) and (max-width: 1199px)
+{
+
+}
+
+/*  Small devices*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+}
+
+/*   extra small devices  */
+@media (max-width: 767px)
+{
+
+}
+
+.container {
+	margin-top: 20px;
+}
+.logo
+{
+	text-align: center;
+}
+
+.header
+{
+	padding-top: 30px;
+	font-size: 1.2em;
+	padding-bottom: 30px;
+}
+
+.footer
+{
+	padding-top: 30px;
+	font-size: 1.2em;
+}
+.note
+{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border: 1px solid #dddddd;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
